@@ -12,7 +12,7 @@
 
     <webApplication name="web-app"
         location="${server.config.dir}/apps/web-app.war"
-        contextRoot="/" />
+        contextRoot="/" />          
 
     <!-- Prevents warning messages about incorrect JSESSION id length -->
     <httpSession cookieName="123456789abcdefghi12345"/>
